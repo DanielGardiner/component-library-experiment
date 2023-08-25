@@ -7,7 +7,7 @@ import scss from "rollup-plugin-scss";
 
 export default [
   {
-    input: "./src/index.js",
+    input: "./src/components/index.js",
     output: [
       {
         file: "dist/index.js",
