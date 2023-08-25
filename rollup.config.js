@@ -3,6 +3,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import external from "rollup-plugin-peer-deps-external";
 import { terser } from "rollup-plugin-terser";
 import postcss from "rollup-plugin-postcss";
+import scss from "rollup-plugin-scss";
 
 export default [
   {
@@ -19,7 +20,7 @@ export default [
       },
     ],
     plugins: [
-      resolve(),
+      scss(),
       postcss({
         plugins: [],
         minimize: true,
@@ -29,6 +30,7 @@ export default [
         presets: ["@babel/preset-react"],
       }),
       external(),
+      resolve(),
       terser(),
     ],
   },
