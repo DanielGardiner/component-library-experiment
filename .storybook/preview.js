@@ -9,28 +9,28 @@ const bootstrapBreakpoints = {
   small: {
     name: "2. Small - sm",
     styles: {
-      width: "768px",
+      width: "767px",
       height: "400px",
     },
   },
   medium: {
     name: "3. Medium - md",
     styles: {
-      width: "992px",
+      width: "991px",
       height: "400px",
     },
   },
   large: {
     name: "4. Large - lg",
     styles: {
-      width: "1200px",
+      width: "1199",
       height: "400px",
     },
   },
   extraLarge: {
     name: "5. Extra large - xl",
     styles: {
-      width: "1400px",
+      width: "1399px",
       height: "400px",
     },
   },
